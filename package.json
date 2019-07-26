@@ -1,0 +1,14 @@
+{
+  "name": "spellingjs",
+  "version": "1.0.0",
+  "description": "A spelling corrector based off of Peter Norvig's simple spelling corrector.  Norvig's python version is at norvig.com/spell-correct.html",
+  "main": "SpellingCorrector.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
