@@ -7,7 +7,10 @@ is in SpellCheck.js.  You can run the spell checker with "node SpellCheck.js arg
 I haven't done anything to validate input, so you might have problems if you use non-letter characters.
 
 ## What I learned
-I learned how to use a language corpus and Bayesian Statistics to correct spelling errors making this project.
+I learned how to use a language corpus and Bayesian Statistics to correct spelling errors making this project. (note: this
+particular spelling checker isn't exactly Bayesian because the error model just assumes each increase in edit distance is
+infinitely less likely than the previous one.  You could make an error model with a spelling error corpus which Norvig talks
+about on his site).
 
 I also got a lot of practice doing array operations like map, filter and reduce.  Norvig's Python version uses a
 whole lot of list comprehensions and so the major challenge was trying to be nearly as compact as his without being
